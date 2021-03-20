@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Admin Home</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="../css/business-frontpage.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Attendance System</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="adminreports.html">Reports</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="logout" href="#">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="bg-primary py-5 mb-5">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-lg-12">
+          <h1 class="display-4 text-white mt-5 mb-2">ITI Attendance System</h1>
+          <p class="lead mb-5 text-white-50">Welcome to your organizations Attendance System, please use this system to confirm your daily attendance.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-8 mb-5">
+        <h2>What To Do</h2>
+        <hr>
+        <p>Use This System To view your Daily and Monthly Reports.</p>
+        <p>Use the button bellow to confirm your daily attendance.</p>
+      </div>
+      <div class="col-md-4 mb-5">
+        <h2>Contact Us</h2>
+        <hr>
+        <address>
+          <strong>Omar Company</strong>
+          <br>zahayra Place
+          <br>Dikirnis Mansoura
+          <br>
+        </address>
+        <address>
+          <abbr title="Phone">P: </abbr>
+          0155-666-6334
+          <br>
+          <abbr title="Email">E:</abbr>
+          <a href="mailto:#">omar.a.eldars@gmail.com</a>
+        </address>
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <!-- confirm Attendance form -->
+    <section class="up col-md-6" id="up">
+        <div class="mb-3">
+            <select id="confirm-attendance" class="form-control"></select>
+        </div>
+        <button class="btn btn-secondary btn-lg" id="attend_butt" style="float: right;" type="button">Confirm Attendance</button>
+    </section>
+    <div></div><div></div><div></div>
+    <section class="down col-md-6" style="display:none; text-align: center; " id="down">
+        <div class="mb-3">
+            <p id="employee_name">Employee Name :  </p>
+            <p id="employee_attend_time">Attendance Time:  </p>
+        </div>
+        <button class="btn btn-secondary btn-lg" id="close_butt" style="margin: auto; display: block;">Close</button>
+    </section>
+  <!-- /.container -->
+  <br><br><br><br><br><br><br><br><br>
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Omar Abd El-Aziz</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="../vendor/jquery/jquery.min.js"></script>
+  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>

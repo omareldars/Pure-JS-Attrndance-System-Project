@@ -1,0 +1,81 @@
+{
+  "users": [
+    {
+      "id": 27435,
+      "username": "ahmed88049",
+      "password": "new@pass86705",
+      "firstname": "ahmed",
+      "lastname": "ezzat",
+      "address": "ay 7aga",
+      "email": "ahmed.ezzat@example.com",
+      "age": "26",
+      "role": "employee",
+      "late": [
+        "1/6/2021 - with excuse",
+        "7/6/2021"
+      ],
+      "attend": [
+        "3/6/2021"
+      ],
+      "absent": [
+        "4/6/2021",
+        "2/6/2021"
+      ]
+    },
+    {
+      "id": 24435,
+      "username": "ebrahim98034",
+      "password": "new@pass444",
+      "firstname": "Ebrahim",
+      "lastname": "Elsayed",
+      "address": "ay 7aga",
+      "email": "ebrahim@example.com",
+      "age": "26",
+      "role": "employee",
+      "late": [
+        "1/6/2021 - with excuse",
+        "7/6/2021",
+        "8/6/2021"
+      ],
+      "attend": [
+        "3/6/2021"
+      ],
+      "absent": [
+        "4/6/2021",
+        "2/6/2021"
+      ]
+    },
+    {
+      "id": 43653,
+      "username": "admin",
+      "password": "admin",
+      "firstname": "Omar",
+      "lastname": "Abd El-laziz",
+      "address": "Mansoura",
+      "email": "omar.a.eldars@gmail.com",
+      "age": "25",
+      "role": "admin",
+      "late": [],
+      "attend": [],
+      "absent": [
+        "2/7/2021"
+      ]
+    },
+    {
+      "id": 20536,
+      "username": "omar19262",
+      "password": "new@pass89347",
+      "firstname": "omar",
+      "lastname": "abdelaziz",
+      "address": "mansoura",
+      "email": "o.abdelaziz@xsolutions.tech",
+      "age": "25",
+      "role": "employee",
+      "late": [],
+      "attend": [],
+      "absent": [
+        "2/7/2021"
+      ]
+    }
+  ]
+}
