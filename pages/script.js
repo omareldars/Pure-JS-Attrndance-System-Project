@@ -42,10 +42,10 @@ window.addEventListener('load', function () {
             Email.send({
                 Host: "smtp.elasticemail.com",
                 port: 2525,
-                Username: 'omar.a.eldars@gmail.com',
-                Password: '9F20643FB271D01082514CF2F03485C3FB88',
+                Username: 'PUT YOUR EMAIL HERE',
+                Password: 'PUT YOUR PASSWORD HERE',
                 To: new_user.email,
-                From: "omar.a.eldars@gmail.com",
+                From: "PUT YOUR FROM EMAIL HERE",
                 Subject: `register confirmation email`,
                 Body: `Hello ${new_user.firstname}, <br/> Your username is:  ${new_user.username} <br/> And Your Password: ${new_user.password}`
             }).then(resp => {
